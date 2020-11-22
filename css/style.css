@@ -50,6 +50,7 @@ ul.navbar-language :not(li:last-child) a {
   background-size: cover;
   height: 450px;
   position: relative;
+  background-position: 40%;
 }
 
 .jumbo h1 {
@@ -132,6 +133,286 @@ ul.navbar-language :not(li:last-child) a {
   padding-top: 10px;
 }
 
+/* Steps Section */
+#steps {
+  background-image: url(../img/index-banner.1f6fd0a.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.p-r-200 {
+  padding-right: 200px;
+}
+
+.p-l-180 {
+  padding-left: 180px;
+}
+
+.p-t-5 {
+  padding-top: 5px;
+}
+
+.m-l-200 {
+  margin-left: 200px;
+}
+
+.m-t-225 {
+  margin-top: 225px;
+}
+
+.m-t-650 {
+  margin-top: 650px;
+}
+
+.m-t-660 {
+  margin-top: 660px;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+#steps img {
+  height: 550px;
+}
+
+#steps h2 {
+  font-size: 32px;
+}
+
+/* Mobility Section */
+#mobility .container {
+  background-image: url(../img/scooter.f0a0397.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 340px;
+  background-position: 80%;
+}
+
+.mob-h-500 {
+  height: 500px;
+}
+
+.smrt {
+  color: white;
+  position: relative;
+}
+
+.smrt .smrt-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+}
+
+#mobility h2 {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+#mobility p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+#mobility a {
+  color: white;
+}
+
+.colw {
+  color: white;
+}
+
+/* App Section */
+#app .container {
+  margin-top: 40px;
+}
+
+.city {
+  background-image: url(../img/web/city.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.phone {
+  background-image: url(../img/web/phone.png), linear-gradient(#41566a, #252f38);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.pd-rt-20 {
+  padding-right: 20px;
+}
+
+.pd-lf-20 {
+  padding-left: 20px;
+}
+
+.phn {
+  color: white;
+  position: relative;
+}
+
+.phn .phn-txt {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+  line-height: 35px;
+}
+
+#app a {
+  color: white;
+}
+
+#app span {
+  margin-left: 10px;
+}
+
+/* Family Section */
+#family {
+  margin-top: 40px;
+  position: relative;
+}
+
+#family {
+  background-image: url(../img/web/social_banner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.smrt .smrt-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+}
+
+.hb-fam {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 42%;
+}
+
+.social-rect {
+  background-color: white;
+  height: 200px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.social-rect-content {
+  /* padding: 0 180px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* width: 42%; */
+  line-height: 40px;
+}
+
+.social-rect h2 {
+  color: black;
+}
+
+.social-icon i {
+  color: black;
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: black;
+  height: 600px;
+}
+
+.f-pt-60 {
+  padding-top: 60px;
+}
+
+.footer-top {
+  height: 400px;
+}
+
+.footer-top li {
+  list-style: none;
+  color: #696969;
+  font-weight: 600;
+}
+
+.footer-central{
+  line-height: 60px;
+}
+
+.footer-top a {
+  color: #696969;
+  line-height: 40px;
+}
+
+.footer-top h3 {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.footer-central li {
+  display: inline-block;
+}
+
+.footer-central i {
+  color: white;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.footer-central p {
+  color: white;
+}
+
+hr{
+  margin-top: 30px;
+}
+
+.footer-bottom .row *.col-lg-4{
+  height: 100%;
+}
+
+.footer-bottom h2{
+  color: white;
+}
+
+.f-pt-25{
+  padding-top: 25px;
+  
+}
+
+
 /* img size config */
 .img-rsz-xxs {
   height: 20px;
@@ -140,6 +421,9 @@ ul.navbar-language :not(li:last-child) a {
 .img-rsz-xxl {
   height: 300px;
 }
+
+
+
 
 @media screen and (max-width: 992px) {
   .jumbo h1 {

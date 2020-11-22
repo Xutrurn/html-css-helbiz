@@ -59,6 +59,7 @@ ul.navbar-language :not(li:last-child) a {
 
 .jumbo p {
   margin: 10px 0;
+  color: white;
 }
 
 .jumbo .testo {
@@ -123,6 +124,7 @@ ul.navbar-language :not(li:last-child) a {
 #prodotti p {
   font-weight: 600;
   font-size: 22px;
+  color: rgb(33, 37, 41);
 }
 
 #prodotti i {
@@ -184,6 +186,11 @@ ul.navbar-language :not(li:last-child) a {
 
 #steps h2 {
   font-size: 32px;
+  color: rgb(33, 37, 41);
+}
+
+#steps h3, p {
+  color: rgb(33, 37, 41);
 }
 
 /* Mobility Section */
@@ -223,6 +230,7 @@ ul.navbar-language :not(li:last-child) a {
   font-size: 18px;
   line-height: 25px;
   margin-top: 15px;
+  color: white;
 }
 
 #mobility a {
@@ -277,6 +285,14 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 #app a {
+  color: white;
+}
+
+#app a:hover {
+  text-decoration: underline;
+}
+
+#app p {
   color: white;
 }
 
@@ -339,18 +355,18 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 .social-rect h2 {
-  color: black;
+  color: rgb(33, 37, 41);
 }
 
 .social-icon i {
-  color: black;
+  color: rgb(33, 37, 41);
   font-size: 25px;
 }
 
 footer {
   margin-top: 40px;
   background-color: black;
-  height: 600px;
+  height: 620px;
 }
 
 .f-pt-60 {
@@ -367,7 +383,7 @@ footer {
   font-weight: 600;
 }
 
-.footer-central{
+.footer-central {
   line-height: 60px;
 }
 
@@ -395,23 +411,21 @@ footer {
   color: white;
 }
 
-hr{
+hr {
   margin-top: 30px;
 }
 
-.footer-bottom .row *.col-lg-4{
+.footer-bottom .row *.col-lg-4 {
   height: 100%;
 }
 
-.footer-bottom h2{
+.footer-bottom h2 {
   color: white;
 }
 
-.f-pt-25{
+.f-pt-25 {
   padding-top: 25px;
-  
 }
-
 
 /* img size config */
 .img-rsz-xxs {
@@ -421,12 +435,53 @@ hr{
 .img-rsz-xxl {
   height: 300px;
 }
+@media screen and (max-width: 1199px){
+  .pt-d-40 {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 743px) {
+  .pl-cr-50{
+    padding-left: 50px;
+  }
+}
 
-
-
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .jumbo h1 {
     font-size: 26px;
   }
+
+
+
+  .mt-cr--20 {
+    margin-top: -20px;
+  }
+
+  .pr-cr-20{
+    padding-right: 20px;
+  }
+
+  .pt-cr-20{
+    padding-top: 20px;
+  }
+
+  .pt-d-40 {
+    padding-top: 40px;
+  }
+
+  .ml-cr-20{
+    margin-left: 20px;
+  }
+
+  .ft-pb-cr-20{
+    padding-bottom: 20px;
+  }
+
+.ft-cr-900{
+  height: 1110px;
+}
+
+
+
+
 }
